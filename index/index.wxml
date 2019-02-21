@@ -1,0 +1,21 @@
+<view class="error_catch_box">
+  <view>小程序错误捕捉Demo</view>
+  <button
+    type="primary"
+    bindtap="doCatchOnError"
+  >
+    onError错误捕捉
+  </button>
+  <button
+    type="primary"
+    bindtap="doCatchRequestError"
+  >
+    request请求错误捕捉
+  </button>
+  <button
+    type="primary"
+    bindtap="doCatchConsoleError"
+  >
+    console.log终端错误捕捉
+  </button>
+</view>

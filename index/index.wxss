@@ -1,0 +1,15 @@
+.error_catch_box {
+  margin-top: 50rpx;
+}
+
+.error_catch_box > view {
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 50rpx;
+}
+
+.error_catch_box button {
+  margin: 20rpx;
+  font-size: 30rpx;
+}
