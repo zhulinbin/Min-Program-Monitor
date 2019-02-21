@@ -2,13 +2,13 @@
 ## 功能
 小程序全局错误捕捉工具,简单引用就可以在后台监控异常信息。
 
-* 1. 获取onError生命周期里的错误信息
-* 2. 上报wx.request、wx.uploadFile错误信息
-* 3. 劫持console终端报错信息
+* 获取onError生命周期里的错误信息
+* 上报wx.request、wx.uploadFile错误信息
+* 劫持console终端报错信息
 
 
 ## 使用方法
-* 1. 复制文件夹
+* 复制文件夹
 <pre>
 -lib/
   -errorMonitor/
@@ -20,7 +20,7 @@
   index.js
 </pre>
 
-* 2. 引用文件
+* 引用文件
 <pre>
 在app.js中
 
@@ -37,7 +37,8 @@ App({
 })
 </pre>
 
-* 3. 示例
+* 示例
+
 注: 在手机端预览的时候需要先打开调试(貌似报错了小程序就卡住了),其他情况可以直接运行
 <a href="https://developers.weixin.qq.com/s/jmnNqlmg7g6R" target="_blank" rel="noopener">开发工具在线预览</a>
 
