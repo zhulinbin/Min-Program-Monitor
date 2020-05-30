@@ -42,7 +42,11 @@ App({
 注: 在手机端预览的时候需要先打开调试(貌似报错了小程序就卡住了),其他情况可以直接运行
 <a href="https://developers.weixin.qq.com/s/jmnNqlmg7g6R" target="_blank" rel="noopener">开发工具在线预览</a>
 
-![小程序截图](https://www.jwdai.com.cn/images/screenShot2.png)
+![小程序截图](https://github.com/zhulinbin/Min-Program-Monitor/blob/master/screenShot2.png)
+
+Tips:
+如果不能看到图片请在C:\Windows\System32\drivers\etc下的hosts文件中加入:
+151.101.184.133  raw.githubusercontent.com
 
 ## 可选参数
 
